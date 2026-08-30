@@ -79,31 +79,23 @@ page.
 
 ## Part 0. Know Your Master
 
-Before you prototype anything, get intimately acquainted with the piece you
-drew. Do real research. You are looking less for trivia than for the *shape of
-the interaction*:
-
-- What inputs are available to the user? What responses does the work give?
-- Who is present, and how does the piece color the relationships between them?
-- What is the piece famous for? What are its strengths and its weaknesses?
-
-  Sometimes the details of how the interaction worked are lost in history. Try filling it in with your imagination!
-
-**Describe your masterwork here, in your own words. What is the core interaction
-someone would recognize it by?**
+**Brake & Turn Signals**
+- Brake lights and turn signals act as a simple visual language between vehicles and the people around them. A driver's action or intention is translated into light, which other drivers, passengers, cyclists, or pedestrians interpret and respond to.
+- Brake lights mainly communicate **a current change in movement** ("I am slowing down"), while turn signals communicate **a future intention** ("I am planning to move this way").
+- A major strength of this system is that it allows strangers to coordinate movement without speaking or making direct contact.Its simplicity also creates ambiguity: a brake light does not communicate how hard a car is braking, and a turn signal does not guarantee exactly when or whether a turn will happen.
 
 ## Part A. Plan
 
 For your masterwork, reconstruct the interaction as a scene:
 
-- **Setting:** Where and when does this interaction happen? (a jungle, a kitchen,
-  a spaceship corridor, a nightclub, a harbor at night)
-- **Players:** Who is involved? Who else is present? Think through everyone in
-  the setting, not just the primary user.
-- **Activity:** What is happening between the players and the light?
-- **Goals:** What is each player trying to do?
-
-**Describe your setting, players, activity, and goals here.**
+- **Setting:** Road environments where people need to quickly interpret the movement of nearby vehicles（traffic jams, intersections, and pedestrian crossings）
+- **Players:** Drivers, Passengers, Pedestrians, Other nearby road users, Vehicles and their signal lights
+- **Activity:** One person's driving behavior produces a light signal. Other people notice the signal, combine it with distance and vehicle movement, and decide how to react.
+- **Goals:**
+- Driver: communicate braking or turning behavior and move safely.
+- Other driver: anticipate changes in traffic and maintain a safe distance.
+- Passenger: understand nearby vehicle movement and assess whether the driver is reacting safely.
+- Pedestrian: predict the vehicle's path and decide whether to walk, wait, or stop.
 
 Now **sketch a 3 storyboards** of the interaction you are recreating. (The number may depend on the thing you drew, but stretch your thinking!) They
 don't need to be beautiful, but they must capture and communicate not only the behavior of the light, but how it affects
