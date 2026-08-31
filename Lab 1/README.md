@@ -4,7 +4,7 @@ _This project is to be done in teams of 2._
 
 **Xiaoxi Xu**
 
-**THE MASTERWORK YOU DREW FROM THE HAT:**
+**THE MASTERWORK YOU DREW FROM THE HAT:Brake & Turn Signals**
 
 ---
 
