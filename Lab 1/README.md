@@ -88,23 +88,24 @@ page.
 
 For your masterwork, reconstruct the interaction as a scene:
 
-- **Setting:** Road environments where people need to quickly interpret the movement of nearby vehicles（traffic jams, intersections, and pedestrian crossings）
-- **Players:** Drivers, Passengers, Pedestrians, Other nearby road users, Vehicles and their signal lights
-- **Activity:** One person's driving behavior produces a light signal. Other people notice the signal, combine it with distance and vehicle movement, and decide how to react.
+- **Setting:** A traffic jam on a busy city road during rush hour. Cars are moving slowly in stop-and-go traffic, so drivers need to constantly watch the vehicles ahead and react quickly to small changes in speed.
+- **Players:**
+- Front driver who slows down or stops
+- Following driver who watches and reacts
+- Passenger in the following car
+- Other nearby drivers in the traffic flow
+- Vehicles and their brake lights
+- **Activity:** The front driver presses the brake, and the brake lights turn on. The following driver notices the red light, judges the distance and speed difference, and decides to slow down. This reaction may continue backward through traffic as each driver responds to the car ahead.
 - **Goals:**
-- Driver: communicate braking or turning behavior and move safely.
-- Other driver: anticipate changes in traffic and maintain a safe distance.
-- Passenger: understand nearby vehicle movement and assess whether the driver is reacting safely.
-- Pedestrian: predict the vehicle's path and decide whether to walk, wait, or stop.
+- Front driver: slow down safely and communicate this change clearly to the car behind.
+- Following driver: notice the brake light quickly, maintain a safe distance, and avoid collision.
+- Passenger: monitor the changing distance and assess whether their driver is reacting in time.
+- Other drivers: stay coordinated with the flow of traffic.
 
-Now **sketch a 3 storyboards** of the interaction you are recreating. (The number may depend on the thing you drew, but stretch your thinking!) They
-don't need to be beautiful, but they must capture and communicate not only the behavior of the light, but how it affects
-and the people around it. If you're new to storyboarding, read
-[this explanation](https://www.nngroup.com/articles/storyboards-visualize-ideas/).
+**sketch a 3 storyboards** 
 
-**Include pictures of your storyboards here.**
+<img width="2040" height="651" alt="IMG_1637" src="https://github.com/user-attachments/assets/e95b17d6-5047-481b-8aec-a8a9bac90657" />
 
-Use the storyboards to decide what interaction to prototype.
 
 **Summarize the feedback you got here.**
 
