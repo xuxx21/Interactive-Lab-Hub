@@ -169,9 +169,12 @@ who doesn't should come away understanding what it's famous for. How might you i
 
 **Include your video here.**
 
-**Please indicate who you collaborated with on this lab.** Be generous in
-acknowledging their contributions, and credit any other influences (YouTube,
-Github, Twitter, a friend who lent you a lamp) that informed your recreation.
+
+https://github.com/user-attachments/assets/99be2fc9-09f8-4471-90fb-a57b9f8749c3
+
+
+
+**Please indicate who you collaborated with on this lab.** Special thanks to Gloria Zhu & Kelly Zheng
 
 ---
 
