@@ -189,7 +189,12 @@ videos, and give them reactions and feedback: tell them what you saw happening,
 guess the masterwork and the goals of the characters, and ask about anything that
 wasn't clear.
 
-**Who were the other groups you kibitzed with? Add links to their project pages here.**
+**Group1 Gal Alon and Jonathan Sharpy**
+https://github.com/ga386-hash/Interactive-Lab-Hub/blob/Fall2026/Lab%201/README.md
+**Group2 Hsin-Yu Tsai**
+[ttps://github.com/ht534-ui/Interactive-Lab-Hub/tree/Fall2026/Lab%201](https://github.com/ht534-ui/Interactive-Lab-Hub/tree/Fall2026/Lab%201)
+**Group3 Lamiah Khan & Rawisara Chairat**
+https://github.com/khanlamiah019/Interactive-Lab-Hub/tree/Fall2026/Lab%201
 **Summarize the feedback you got from your partners here.**
 
 ## Remix, Update, or Critique the Master
