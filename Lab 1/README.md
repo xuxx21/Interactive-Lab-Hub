@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/b9a17df0-a01a-4198-9eea-d23c44f0b16f
+
 # Recreating the Masters of Interactive Light
 
 _This project is to be done in teams of 2._
@@ -236,6 +240,11 @@ The goal is to communicate not only that the vehicle is braking, but also how ur
 
 https://github.com/user-attachments/assets/e587608b-a6ad-4a1b-832c-7988e776d6f9
 
+https://github.com/user-attachments/assets/10a81bc5-b226-4c5d-8793-873ba763d135
+
+
+Special thanks to Gloria Zhu & Kelly Zheng & Racheal Yang
+<img width="572" height="616" alt="截屏2026-09-09 下午2 02 32" src="https://github.com/user-attachments/assets/38cd74ac-2a29-4f33-8ce1-6176fe1d886d" />
 
 
 
