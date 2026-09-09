@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/b9a17df0-a01a-4198-9eea-d23c44f0b16f
-
 # Recreating the Masters of Interactive Light
 
 _This project is to be done in teams of 2._
