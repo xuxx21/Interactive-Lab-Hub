@@ -146,7 +146,7 @@ building any real electronics. (Zoom works well for recording; you can pin the
 video feed of whichever scene you want to capture.)
 
 **Include your first attempts at recording the wizarded set-up here.**
-https://github.com/user-attachments/assets/af5d65a2-79dd-4a94-bc77-7f91847666f4
+https://github.com/user-attachments/assets/88ebe5f7-e5b6-4417-a0d5-d00f445c7470
 
 ## Part E. (optional) Costume the Device
 
@@ -220,7 +220,8 @@ combine them):
 We will grade this second pass with an emphasis on **creativity** and on how well
 your response engages with what your master was really doing.
 
-**Brake Light 2.0 — Communicating Urgency.**
+## Brake Light 2.0 — Communicating Urgency
+
 1. Added more control over the brake light behavior to communicate different levels of urgency.
 **Normal braking → Solid red light**
 **Urgent braking → Pulsing red light**
@@ -228,8 +229,6 @@ your response engages with what your master was really doing.
 **Normal braking → Visual feedback only**
 **Urgent braking → Pulsing red light + sound feedback**
 The goal is to communicate not only that the vehicle is braking, but also how urgently it is braking.
-
-https://github.com/user-attachments/assets/88ebe5f7-e5b6-4417-a0d5-d00f445c7470
 
 
 https://github.com/user-attachments/assets/e587608b-a6ad-4a1b-832c-7988e776d6f9
