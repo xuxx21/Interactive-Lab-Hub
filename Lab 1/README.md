@@ -191,11 +191,15 @@ wasn't clear.
 
 **Group1 Gal Alon and Jonathan Sharpy**
 https://github.com/ga386-hash/Interactive-Lab-Hub/blob/Fall2026/Lab%201/README.md
+
 **Group2 Hsin-Yu Tsai**
 [ttps://github.com/ht534-ui/Interactive-Lab-Hub/tree/Fall2026/Lab%201](https://github.com/ht534-ui/Interactive-Lab-Hub/tree/Fall2026/Lab%201)
+
 **Group3 Lamiah Khan & Rawisara Chairat**
 https://github.com/khanlamiah019/Interactive-Lab-Hub/tree/Fall2026/Lab%201
-**Summarize the feedback you got from your partners here.**
+
+**Summarize**
+Overall, my classmates found the storyboard and video simple, clear, and easy to understand. They felt that using two people to represent cars and a phone with a red screen as the brake light successfully demonstrated how a brake light communicates slowing down or stopping to the person behind. The interaction and the follower’s reaction were especially clear in the video. At the same time, they suggested several ways to improve the demonstration. One suggestion was to make the stopping action more noticeable, such as using a larger or quicker pause, so the cause-and-effect relationship is more visible on camera. Another was to include the turn signal interaction, potentially by having the red light blink. They also pointed out an interesting limitation of brake lights: while the light communicates that the vehicle is slowing down, it does not clearly communicate how urgently the driver is braking. This ambiguity could be explored more explicitly in the video.
 
 ## Remix, Update, or Critique the Master
 
