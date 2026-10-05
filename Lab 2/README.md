@@ -1,5 +1,6 @@
 # Interactive Prototyping: The Clock of Pi
-**NAMES OF COLLABORATORS HERE**
+https://github.com/Afrozaktar/Interactive-Lab-Hub/tree/5a6eafdf0c2de894ee5e0558d0139d1e236ff519/Lab%202
+**NAMES OF COLLABORATORS：Afroza Aktar, Rawisara Chairat, Lamiah Khan, Xiaoxi Xu **
 
 Does it feel like time is moving strangely during this semester?
 
