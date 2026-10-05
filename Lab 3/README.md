@@ -225,8 +225,19 @@ The system should:
 * require participants to speak to it
 
 *Document how the system works.*
+<img width="1536" height="1024" alt="new map" src="https://github.com/user-attachments/assets/72af8e61-9109-4b79-bc3a-64a6314dc396" />
+
 
 *Include videos or screencaptures of both the system and the controller.*
+
+
+
+https://github.com/user-attachments/assets/f2098e47-b45a-4f45-816a-c1cedafd666c
+
+
+
+
+
 
 ## Test the system
 
