@@ -225,7 +225,8 @@ The system should:
 * require participants to speak to it
 
 *Document how the system works.*
-<img width="1536" height="1024" alt="new map" src="https://github.com/user-attachments/assets/72af8e61-9109-4b79-bc3a-64a6314dc396" />
+<img width="1536" height="1024" alt="nex journey" src="https://github.com/user-attachments/assets/7ba4296b-1075-4981-bcba-376423246dd1" />
+
 
 
 *Include videos or screencaptures of both the system and the controller.*
@@ -246,16 +247,24 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+\*\Overall, the interaction worked, and the back-and-forth conversation communicated the intended experience of a companion that listens and responds. However, participants often needed more time to think while speaking. The system frequently treated these thinking pauses as the end of a turn and cut them off before they had finished. Although the 0.4-second silence threshold felt comfortable in my earlier tests, it was too short in some of these more reflective conversations. I need to adjust the endpointing behavior to give users more room to organize their thoughts.\*\*
 
 ### What worked well about the controller and what didn't?
-\*\**your answer here*\*\*
+\*\The controller provided a simple way to manage the lamp’s responses, It supported the basic conversation flow, but the manual control made the Wizard of Oz setup too noticeable. A future controller should make these transitions less distracting and better synchronized with the end of the response.\*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-\*\**your answer here*\*\*
+\*\The tests showed that silence does not necessarily mean someone has finished speaking. In a device designed for sharing feelings, thinking pauses are part of the conversation. A more autonomous version should account for these pauses instead of relying only on a short, fixed silence threshold.
+
+One improvement I would explore is allowing users to touch and hold the lamp while speaking. This would provide an explicit signal: “I am still speaking; please do not interrupt.” While the user maintains contact, the device would keep listening through pauses. Releasing the touch would allow silence detection to resume, rather than immediately ending the turn.
+
+The tests also highlighted the importance of smooth transitions between listening and responding. In a future version, the end of the device’s spoken response should automatically return it to listening, keeping the screen feedback synchronized with the conversation.\*\*
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-\*\**your answer here*\*\*
+\*\With participants’ consent, I could collect synchronized audio and event logs showing speech activity, detected turn endings, screen states, and researcher button presses. I would annotate moments when participants were still thinking but the system ended their turn, as well as moments when the transition felt appropriate. This could help compare different silence thresholds using actual conversational examples.
+
+For the proposed touch-to-hold interaction, I could also record when users touch and release the lamp, and how long they maintain contact. Comparing touch data with speech and pauses could reveal whether touch provides a useful signal that someone wants to keep their turn.
+
+Video could help show whether participants notice the screen feedback or attempt to continue speaking after being cut off. Short post-test interviews would add their own explanations of these moments. Researcher-controlled responses should be clearly labeled, and recordings should use participant IDs with an agreed retention and deletion plan.\*\*
 
 <details>
   <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
