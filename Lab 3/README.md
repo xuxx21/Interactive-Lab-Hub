@@ -257,14 +257,14 @@ Answer the following:
 
 One improvement I would explore is allowing users to touch and hold the lamp while speaking. This would provide an explicit signal: “I am still speaking; please do not interrupt.” While the user maintains contact, the device would keep listening through pauses. Releasing the touch would allow silence detection to resume, rather than immediately ending the turn.
 
-The tests also highlighted the importance of smooth transitions between listening and responding. In a future version, the end of the device’s spoken response should automatically return it to listening, keeping the screen feedback synchronized with the conversation.\*\*
+The tests also highlighted the importance of smooth transitions between listening and responding. In a future version, the end of the device’s spoken response should automatically return it to listening, keeping the screen feedback synchronized with the conversation.\*\
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 \*\With participants’ consent, I could collect synchronized audio and event logs showing speech activity, detected turn endings, screen states, and researcher button presses. I would annotate moments when participants were still thinking but the system ended their turn, as well as moments when the transition felt appropriate. This could help compare different silence thresholds using actual conversational examples.
 
 For the proposed touch-to-hold interaction, I could also record when users touch and release the lamp, and how long they maintain contact. Comparing touch data with speech and pauses could reveal whether touch provides a useful signal that someone wants to keep their turn.
 
-Video could help show whether participants notice the screen feedback or attempt to continue speaking after being cut off. Short post-test interviews would add their own explanations of these moments. Researcher-controlled responses should be clearly labeled, and recordings should use participant IDs with an agreed retention and deletion plan.\*\*
+Video could help show whether participants notice the screen feedback or attempt to continue speaking after being cut off. Short post-test interviews would add their own explanations of these moments. 
 
 <details>
   <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
