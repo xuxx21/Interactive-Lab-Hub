@@ -160,8 +160,12 @@ Speak, pause, and watch it transcribe. Now change the endpointing threshold — 
 ```
 
 \*\***Try both extremes, and something in between. Describe what each one feels like to talk to. Note specifically: at 0.2s, what kinds of normal speech get cut off? At 1.5s, what does the delay make the system seem like?**\*\*
+I tested silence thresholds of 0.2, 0.4, and 1.5 seconds. The default setting of 0.4 seconds felt the most comfortable to me: it allowed brief pauses without making the interaction feel too slow.
 
-There is no correct value. A system that takes drink orders and a system that listens to someone think out loud want very different thresholds, and the right one depends on what your users are doing with their pauses.
+At 0.2 seconds, the system sometimes treated a short hesitation as the end of my turn, even though I was still thinking about what to say. Normal speech with pauses around fillers such as “um,” “well,” or “so” could get split into separate segments. For example, “Well” and “So” appeared as standalone transcriptions in my test. This made the interaction feel rushed, as if I had to keep speaking continuously to avoid being cut off.
+
+At 1.5 seconds, I had more room to hesitate and finish my thoughts, but the wait after speaking felt noticeably long. Combined with the additional transcription time, it made the conversation feel very turn-based: I spoke, waited, and then received the result. For me, 0.4 seconds offered the best balance between allowing natural pauses and keeping the interaction responsive.
+
 
 ### The complete loop
 
