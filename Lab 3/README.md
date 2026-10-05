@@ -107,9 +107,10 @@ Note that the Piper command line changed in version 1.x — voices are now downl
 The demo script also shows `--output-raw`, which streams audio to the speaker as it is generated rather than writing a file first. Listen for the difference in how quickly speech begins. In a conversational system this gap is the thing your user experiences as responsiveness.
 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
-(This shell file should be saved to your own repo for this lab.)
+(cici_greeting.sh)
 
 \*\***Then answer: Is the same greeting, in these different voices, the same greeting? Describe one concrete way the voice changed what the utterance seemed to mean or who seemed to be speaking.**\*\*
+For me, eSpeak sounds very robotic, almost like a system announcement in a cyberpunk movie, which makes the greeting feel slightly creepy and distant. In contrast, Piper’s more natural voice makes it feel warmer, more personal, and easier to accept. Even though the words stay exactly the same, the voice changes the perceived distance between me and the speaker, as well as how I feel about who or what is speaking to me.
 
 ## B. Speech to Text
 
@@ -130,8 +131,15 @@ The transcript is not the interesting output here — the timings are. Run it ag
 Available sizes, smallest first: `tiny.en`, `base.en`, `small.en`, `medium.en`. The `.en` variants are English-only and faster than their multilingual counterparts at the same size.
 
 \*\***Record a few seconds of your own speech (`arecord -d 5 -f cd -c 1 -r 16000 test.wav`) and transcribe it with at least two model sizes. Report the real-time factor for each. At what point does the accuracy improvement stop being worth the delay, for a system that has to answer you?**\*\*
+transcribe.py test.wav
+I tested three model sizes with the phrase, “What is the time right now? Is it 12 or 1?” The tiny.en model had a real-time factor of 0.36x, but the transcription was very inaccurate and changed the meaning of the sentence. base.en improved the result with an RTF of 0.75x, correctly recognizing parts like “time right now” and “12,” although it still missed some words. small.en was the most accurate with an RTF of 1.91x, but it took 9.56 seconds to transcribe only 5 seconds of audio and still missed “or 1.”
+For a conversational system that needs to respond quickly, I think base.en gives the best tradeoff in this test. The improvement from base.en to small.en was not large enough to justify more than doubling the processing delay. tiny.en was fast, but its errors were significant enough to change the meaning of what I said.
 
-\*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\* Numbers are a good stress test — transcription systems make characteristic errors on digit strings, and you will want to know what they are before you design around them.
+\*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\*
+ask_time.sh
+I created a script that uses Piper to verbally ask, “What time is it right now?”, records the user's response for five seconds, and then transcribes it using the base.en model.  
+I noticed that microphone distance had a surprisingly large effect. In my first attempt, I was relatively far from the microphone. My answer was incorrectly transcribed as “All of the way up,” and the transcription took 33.56 seconds with an RTF of 6.71x. When I moved closer to the microphone and tried again, “twelve forty-five” was correctly interpreted as 12.45, and the transcription took only 2.53 seconds with an RTF of 0.51x. This suggests that input quality can affect not only transcription accuracy but also processing time.
+
 
 ## C. Turn-taking: knowing when someone has stopped talking
 
