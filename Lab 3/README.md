@@ -183,14 +183,16 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 <img width="1774" height="887" alt="idea" src="https://github.com/user-attachments/assets/d7cf50eb-dcf0-4512-8df3-a473375b208b" />
 
+
 My idea is having someone to talk to after coming home. I chose an Aladdin-inspired lamp because touching it creates a familiar ritual for inviting a companion into a conversation. The lamp acknowledges feelings, asks follow-up questions, and checks whether the user wants listening or advice.
+
+
 <img width="1536" height="1024" alt="user journey" src="https://github.com/user-attachments/assets/4fdcbd8d-6439-4ba9-8af3-bda04dec6d6a" />
 
 Thx ChatGPT for the concept illustration
 
 
 \*\***Please describe and document your process.**\*\*
-![Uploading user journey.png…]()
 <img width="984" height="551" alt="截屏2026-10-05 上午5 20 13" src="https://github.com/user-attachments/assets/0b3c6d2e-776f-4f94-a3bd-f307e77b2edc" />
 
 
